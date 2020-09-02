@@ -1,0 +1,69 @@
+.card_tr_txt {
+    text-align : center;
+}
+
+.cardTable_table {
+    width : 100%;
+}
+
+table, th, td {
+    border-collapse : collapse;
+}
+
+.cardTable_td {
+    max-width : 400px;
+}
+
+html {
+    background-color: rgb(59, 59, 59);
+    background-size : 100% auto;
+    width : auto;
+    font-family :  roboto;
+    color : white;
+    margin : 0 auto;
+}
+
+@font-face {
+    font-family : roboto;
+    src : url(Roboto-Black.ttf);
+}
+
+.cardTable_filter {
+    transform : translate(-15%, -50%);
+    float : right;
+}
+
+.cardTable_sets {
+    position : relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.cardTable, .spoilerCardTable_table {
+    margin : 0 auto;
+}
+
+.cardTable_filter_container {
+    margin : 1.5%;
+}
+
+.setImage {
+    height : auto;
+    width: 7%;
+}
+
+.SpoilerCardTable_tr_date_title {
+    font-size : 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#homeTitle {
+    font-size : 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin : 0;
+}

@@ -1,0 +1,2 @@
+Compose another component inside of SpoilerCardTable.js that takes the entire CardDate array and builds a table based on card
+card date array.
